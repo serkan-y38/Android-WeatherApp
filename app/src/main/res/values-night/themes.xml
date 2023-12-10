@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.WeatherApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+
+        <item name="android:navigationBarColor">#1C1B1F</item>
+
+        <item name="android:statusBarColor">#1C1B1F</item>2
+        <item name="statusBarColor">#1C1B1F</item>
+
+        <item name="iconColor">#F7F2F9</item>
+
+        <item name="surface5Color">#34313D</item>
+        <item name="surface4Color">#312D39</item>
+
+    </style>
+</resources>

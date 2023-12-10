@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/placesListItemMainCV"
+    style="@style/Widget.Material3.CardView.Elevated"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_marginHorizontal="15dp"
+    android:layout_marginBottom="10dp"
+    android:clickable="true"
+    android:elevation="8dp"
+    android:focusable="true"
+    app:cardCornerRadius="8dp">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/placeItemTV"
+        style="@style/TextAppearance.Material3.TitleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_gravity="start"
+        android:layout_margin="15dp"
+        android:layout_toEndOf="@+id/subjectsColorIVContainer" />
+
+</com.google.android.material.card.MaterialCardView>

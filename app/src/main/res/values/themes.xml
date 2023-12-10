@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.WeatherApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+        <item name="android:windowLightNavigationBar" tools:ignore="NewApi">true</item>
+        <item name="android:navigationBarColor">#FFFBFE</item>
+
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:statusBarColor">#FFFBFE</item>
+        <item name="statusBarColor">#FFFBFE</item>
+
+        <item name="iconColor">#25232A</item>
+
+        <item name="surface5Color">#EAE3F1</item>
+        <item name="surface4Color">#EDE6F3</item>
+
+    </style>
+
+</resources>
